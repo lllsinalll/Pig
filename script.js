@@ -75,7 +75,7 @@ hold.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       // Update winner/loser names
       document.getElementById(`name--${activePlayer}`).textContent =
         'Winner! 🏆';
